@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+  width: 50%;
+  margin: 0% 2.8rem;
+}
+
+@media (min-width: 340px) and(max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+}
